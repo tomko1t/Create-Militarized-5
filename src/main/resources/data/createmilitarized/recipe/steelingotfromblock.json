@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createmilitarized:steel_block"
+    }
+  ],
+  "result": {
+    "id": "createmilitarized:steel_ingot",
+    "count": 4
+  }
+}
