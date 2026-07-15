@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createmilitarized:block/steel_block"
+    }
+  }
+}

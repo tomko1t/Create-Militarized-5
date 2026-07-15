@@ -8,5 +8,7 @@
   "item.createmilitarized.sulfur": "Sulfur",
   "item.createmilitarized.copper_wire": "Copper Wire",
 
+  "block.createmilitarized.steel_block": "Block of Steel",
+
   "creativetab.createmilitarized.create_militarized_tab": "Create Militarized"
 }

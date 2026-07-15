@@ -1,6 +1,7 @@
 package net.breadguy.createmilitarized.item;
 
 import net.breadguy.createmilitarized.CreateMilitarized;
+import net.breadguy.createmilitarized.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -24,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.COPPER_WIRE);
                         output.accept(ModItems.CAPACITOR);
                         output.accept(ModItems.SULFUR);
+                        output.accept(ModBlocks.STEEL_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus) {

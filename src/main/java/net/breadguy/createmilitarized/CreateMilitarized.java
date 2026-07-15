@@ -1,5 +1,6 @@
 package net.breadguy.createmilitarized;
 
+import net.breadguy.createmilitarized.block.ModBlocks;
 import net.breadguy.createmilitarized.item.ModCreativeModeTabs;
 import net.breadguy.createmilitarized.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -39,7 +40,7 @@ public class CreateMilitarized {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -62,6 +63,10 @@ public class CreateMilitarized {
             event.accept(ModItems.SULFUR);
             event.accept(ModItems.CAPACITOR);
             event.accept(ModItems.COPPER_WIRE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.STEEL_BLOCK);
         }
     }
 
