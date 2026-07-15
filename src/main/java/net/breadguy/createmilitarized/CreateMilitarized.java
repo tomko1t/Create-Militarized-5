@@ -56,6 +56,7 @@ public class CreateMilitarized {
             event.accept(ModItems.STEEL_MIXTURE);
             event.accept(ModItems.CIRCUIT);
             event.accept(ModItems.UNFINISHED_CIRCUIT);
+            event.accept(ModItems.SULFUR);
         }
     }
 
