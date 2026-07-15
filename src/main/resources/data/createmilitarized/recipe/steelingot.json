@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "group": "steel",
+  "ingredient": {
+    "item": "createmilitarized:steel_mixture"
+  },
+  "result": {
+    "count": 1,
+    "id": "createmilitarized:steel_ingot"
+  }
+}
