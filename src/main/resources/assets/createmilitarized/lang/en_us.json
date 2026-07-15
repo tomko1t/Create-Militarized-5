@@ -6,5 +6,7 @@
   "item.createmilitarized.unfinished_circuit": "Circuit Base",
   "item.createmilitarized.capacitor": "Capacitor",
   "item.createmilitarized.sulfur": "Sulfur",
-  "item.createmilitarized.copper_wire": "Copper Wire"
+  "item.createmilitarized.copper_wire": "Copper Wire",
+
+  "creativetab.createmilitarized.create_militarized_tab": "Create Militarized"
 }
