@@ -21,6 +21,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SULFUR = ITEMS.register("sulfur",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CAPACITOR = ITEMS.register("capacitor",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> COPPER_WIRE = ITEMS.register("copper_wire",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

@@ -57,6 +57,8 @@ public class CreateMilitarized {
             event.accept(ModItems.CIRCUIT);
             event.accept(ModItems.UNFINISHED_CIRCUIT);
             event.accept(ModItems.SULFUR);
+            event.accept(ModItems.CAPACITOR);
+            event.accept(ModItems.COPPER_WIRE);
         }
     }
 
