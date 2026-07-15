@@ -15,6 +15,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> STEEL_MIXTURE = ITEMS.register("steel_mixture",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> UNFINISHED_CIRCUIT = ITEMS.register("unfinished_circuit",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CIRCUIT = ITEMS.register("circuit",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

@@ -54,6 +54,8 @@ public class CreateMilitarized {
             event.accept(ModItems.STEEL_INGOT);
             event.accept(ModItems.STEEL_SHEET);
             event.accept(ModItems.STEEL_MIXTURE);
+            event.accept(ModItems.CIRCUIT);
+            event.accept(ModItems.UNFINISHED_CIRCUIT);
         }
     }
 

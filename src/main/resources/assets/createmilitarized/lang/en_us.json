@@ -1,5 +1,7 @@
 {
   "item.createmilitarized.steel_ingot": "Steel Ingot",
   "item.createmilitarized.steel_mixture": "Steel Mixture",
-  "item.createmilitarized.steel_sheet": "Steel Sheet"
+  "item.createmilitarized.steel_sheet": "Steel Sheet",
+  "item.createmilitarized.circuit": "Integrated Circuit",
+  "item.createmilitarized.unfinished_circuit": "Circuit Base"
 }
