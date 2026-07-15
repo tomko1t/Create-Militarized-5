@@ -11,7 +11,10 @@ public class ModItems {
 
     public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> STEEL_SHEET = ITEMS.register("steel_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_MIXTURE = ITEMS.register("steel_mixture",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

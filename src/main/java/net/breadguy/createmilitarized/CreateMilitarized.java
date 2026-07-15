@@ -52,6 +52,8 @@ public class CreateMilitarized {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.STEEL_INGOT);
+            event.accept(ModItems.STEEL_SHEET);
+            event.accept(ModItems.STEEL_MIXTURE);
         }
     }
 
