@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createmilitarized:block/military_casing"
+    }
+  }
+}

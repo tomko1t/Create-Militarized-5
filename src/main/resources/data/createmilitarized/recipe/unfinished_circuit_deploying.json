@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:brass_sheet"
+    },
+    {
+      "item": "createmilitarized:steel_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmilitarized:unfinished_circuit"
+    }
+  ]
+}

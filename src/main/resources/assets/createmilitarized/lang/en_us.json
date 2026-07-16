@@ -4,13 +4,16 @@
   "item.createmilitarized.steel_sheet": "Steel Sheet",
   "item.createmilitarized.circuit": "Integrated Circuit",
   "item.createmilitarized.unfinished_circuit": "Circuit Base",
+  "item.createmilitarized.electron_circuit": "Electron Circuit",
   "item.createmilitarized.capacitor": "Capacitor",
   "item.createmilitarized.sulfur": "Sulfur",
   "item.createmilitarized.copper_wire": "Copper Wire",
+  "item.createmilitarized.insulation": "Insulation",
 
   "block.createmilitarized.steel_block": "Block of Steel",
   "block.createmilitarized.brimstone": "Brimstone",
   "block.createmilitarized.polished_brimstone": "Polished Brimstone",
+  "block.createmilitarized.military_casing": "Military Casing",
 
   "creativetab.createmilitarized.create_militarized_tab": "Create Militarized"
 }

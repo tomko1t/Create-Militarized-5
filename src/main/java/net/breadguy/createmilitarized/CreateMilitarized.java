@@ -63,6 +63,8 @@ public class CreateMilitarized {
             event.accept(ModItems.SULFUR);
             event.accept(ModItems.CAPACITOR);
             event.accept(ModItems.COPPER_WIRE);
+            event.accept(ModItems.INSULATION);
+            event.accept(ModItems.ELECTRON_CIRCUIT);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

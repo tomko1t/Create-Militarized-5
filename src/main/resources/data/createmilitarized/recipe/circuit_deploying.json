@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createmilitarized:unfinished_circuit"
+    },
+    {
+      "item": "createmilitarized:capacitor"
+    }
+  ],
+  "results": [
+    {
+      "id": "createmilitarized:circuit"
+    }
+  ]
+}

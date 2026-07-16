@@ -28,6 +28,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SULFUR);
                         output.accept(ModBlocks.BRIMSTONE);
                         output.accept(ModBlocks.POLISHED_BRIMSTONE);
+                        output.accept(ModItems.CIRCUIT);
+                        output.accept(ModItems.ELECTRON_CIRCUIT);
+                        output.accept(ModItems.UNFINISHED_CIRCUIT);
+                        output.accept(ModItems.INSULATION);
+                        output.accept(ModBlocks.MILITARY_CASING);
                     }).build());
 
     public static void register(IEventBus eventBus) {

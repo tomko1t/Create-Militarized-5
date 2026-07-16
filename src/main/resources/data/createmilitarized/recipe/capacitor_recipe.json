@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " c ",
+    "dcd",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "createmilitarized:copper_wire"
+    },
+    "b": {
+      "item": "create:iron_sheet"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "createmilitarized:insulation"
+    }
+  },
+  "result": {
+    "id": "createmilitarized:capacitor",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "createmilitarized:brimstone",
+    "createmilitarized:polished_brimstone",
+    "createmilitarized:military_casing"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "createmilitarized:brimstone"
+  },
+  "result": {
+    "count": 1,
+    "id": "createmilitarized:polished_brimstone"
+  }
+}

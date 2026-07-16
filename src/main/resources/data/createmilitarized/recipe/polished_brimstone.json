@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "createmilitarized:brimstone"
+    }
+  },
+  "result": {
+    "id": "createmilitarized:polished_brimstone",
+    "count": 4
+  }
+}
