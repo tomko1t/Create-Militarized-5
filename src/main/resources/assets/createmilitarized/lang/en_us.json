@@ -9,6 +9,8 @@
   "item.createmilitarized.copper_wire": "Copper Wire",
 
   "block.createmilitarized.steel_block": "Block of Steel",
+  "block.createmilitarized.brimstone": "Brimstone",
+  "block.createmilitarized.polished_brimstone": "Polished Brimstone",
 
   "creativetab.createmilitarized.create_militarized_tab": "Create Militarized"
 }

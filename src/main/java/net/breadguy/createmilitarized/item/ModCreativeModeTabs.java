@@ -19,13 +19,15 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL_INGOT.get()))
                     .title(Component.translatable("creativetab.createmilitarized.create_militarized_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.STEEL_BLOCK);
                         output.accept(ModItems.STEEL_INGOT);
                         output.accept(ModItems.STEEL_SHEET);
                         output.accept(ModItems.STEEL_MIXTURE);
                         output.accept(ModItems.COPPER_WIRE);
                         output.accept(ModItems.CAPACITOR);
                         output.accept(ModItems.SULFUR);
-                        output.accept(ModBlocks.STEEL_BLOCK);
+                        output.accept(ModBlocks.BRIMSTONE);
+                        output.accept(ModBlocks.POLISHED_BRIMSTONE);
                     }).build());
 
     public static void register(IEventBus eventBus) {

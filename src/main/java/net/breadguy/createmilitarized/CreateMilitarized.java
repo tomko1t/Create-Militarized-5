@@ -67,6 +67,8 @@ public class CreateMilitarized {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.STEEL_BLOCK);
+            event.accept(ModBlocks.BRIMSTONE);
+            event.accept(ModBlocks.POLISHED_BRIMSTONE);
         }
     }
 
