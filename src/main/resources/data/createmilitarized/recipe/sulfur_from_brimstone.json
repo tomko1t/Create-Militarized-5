@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createmilitarized:brimstone"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.05,
+      "id": "createmilitarized:sulfur"
+    },
+    {
+      "chance": 0.01,
+      "id": "create:experience_nugget"
+    }
+  ]
+}
